@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>ورود</title>
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/login.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="view">
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-4 mb-5 mt-md-0 mt-5 white-text text-center text-md-left">
+            </div>
+            <div class="col-4"></div>
+            <div class="first card col-4 text-center ">
+                <p class="card-header "> ورود</p>
+                <div class="card-body">
+                    <p class="card-text">برای استفاده از این برنامه شما نیاز دارید ابتدا وارد حساب کاربری خود شوید و یا ثبت نام کنید.</p>
+                    <p class="card-text">ابتدا شماره تلفن خود را وارد کنید.</p>
+                    <div class="input-group m-3 input-group-lg">
+                        <div  class="input-group-prepend"><span class="input-group-text">+98</span></div>
+                        <input id="tel" type="tel" class="form-control" data-format="(ddd) ddd-dddd"
+                               placeholder="شماره تلفن" required maxlength="10">
+                    </div>
+                    <button id="code" class="btn btn-lg btn-primary disabled" type="submit">دریافت کد ورود</button>
+                </div>
+            </div>
+            <div class="second card col-4 text-center d-none">
+                <p class="card-header "> ورود</p>
+                <div class="card-body">
+                    <p class="card-text">لطفا کد پنج رقمی ارسال شده به شماره را وارد نمایید</p>
+                    <label class="d-block">
+                        <input id="verif" type="text" class="form-control text-center" required maxlength="5">
+                    </label>
+                    <button id="but2" class="btn btn-lg btn-primary disabled" type="submit">60</button>
+                    <button id="but1" class="btn btn-lg btn-primary disabled" type="submit">تایید کد</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="./assets/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<script src="assets/js/login.js"></script>
+</html>

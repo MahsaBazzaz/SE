@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>داشبورد</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/portal.css.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container col-3 float-right mt-3">
+    <ul id="nav" class="nav nav-pills flex-column align-content-center text-right" role="tablist">
+        <li class="nav-item m-1">
+            <a class="nav-link text-decoration-none" data-toggle="pill" href="#myAccount">
+                <img src="./assets/img/avatar.png" id="avatar" alt="">
+            </a>
+        </li>
+        <li class="nav-item m-1">
+            <a class="nav-link active" data-toggle="pill" href="#newSurvey">نظرسنجی جدید <i
+                    class="fa fa-plus ml-1"></i></a>
+        </li>
+        <li class="nav-item m-1">
+            <a class="nav-link" data-toggle="pill" href="#mySurvey">نظرسنجی های من</a>
+        </li>
+        <li class="nav-item m-1">
+            <input id="search" class="form-control text-right" type="text" placeholder="جستجو" aria-label="Search">
+            <a class="nav-link d-none" data-toggle="pill" href="#result">جستجو</a>
+        </li>
+        <li class="nav-item m-1">
+            <a class="nav-link" data-toggle="pill" href="#participated">نظرسنجی های شرکت شده</a>
+        </li>
+        <li class="nav-item m-1">
+            <a class="nav-link" data-toggle="pill" href="#enrolled">نظرسنجی های ثبت نام شده</a>
+        </li>
+        <li class="nav-item m-1">
+            <a class="nav-link" data-toggle="pill" href="#"><i class="fa fa-window-close"></i></a>
+        </li>
+    </ul>
+</div>
+
+<div class="tab-content">
+    <div id="myAccount" class="container col-9 float-left tab-pane ">
+        <h2 class="text-center p-2 mb-1">پروفایل من</h2>
+        <div class="text-center form-group col-12 d-block mb-4">
+            <input type="text" class="form-control text-right m-1" placeholder="نام">
+            <input type="text" class="form-control text-right m-1" placeholder="نام خانوادگی">
+            <input type="tel" class="form-control text-right m-1" placeholder="شماره همراه">
+            <input type="number" class="form-control text-right m-1" placeholder="سن">
+        </div>
+        <button id="save" type="button" class="btn-outline-dark float-right mb-4">ذخیره ی تغییرات</button>
+    </div>
+    <!-- new Survey       -->
+    <div id="newSurvey" class="container col-9 float-left tab-pane active">
+        <h2 class="text-center p-2 mb-1">ایجاد نظرسنجی جدید</h2>
+        <div class="text-center col-12 d-block mb-4">
+            <input id="titleS" type="text" class="form-control text-right m-1" placeholder="عنوان نظرسنجی">
+            <input id="desS" type="text" class="form-control text-right m-1" placeholder="توضیحات">
+        </div>
+        <button id="newQ" type="button" class="btn-outline-dark float-right mb-4">افزودن سوال جدید</button>
+        <div id="qpane" class="container pt-5 pb-5">
+        </div>
+    </div>
+    <div id="result" class="container col-9 float-left tab-pane fade"><br>
+        <h2 class="text-center p-2 mb-1">نتایج جستجو</h2>
+        <div id="listPane0" class="container pt-5 pb-5">
+
+        </div>
+    </div>
+    <div id="mySurvey" class="container col-9 float-left tab-pane fade"><br>
+        <h2 class="text-center p-2 mb-1">نظرسنجی های من</h2>
+        <div id="listPane" class="container pt-5 pb-5">
+
+        </div>
+    </div>
+    <div id="participated" class="container col-9 float-left tab-pane fade"><br>
+        <h2 class="text-center p-2 mb-1">نظرسنجی های شرکت شده</h2>
+        <div id="listPane2" class="container pt-5 pb-5">
+
+        </div>
+    </div>
+    <div id="enrolled" class="container col-9 float-left tab-pane fade"><br>
+        <h2 class="text-center p-2 mb-1">نظرسنجی های ثبت نام شده</h2>
+        <div id="listPane3" class="container pt-5 pb-5">
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="./assets/js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/potal.js"></script>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a63d51e-8e8a-49b5-96b6-e5e24d99c1e5" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WZK6pbCT5UMqHylxEuRvCB7uEL" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Coingraam/portal" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a63d51e-8e8a-49b5-96b6-e5e24d99c1e5" name="Default Changelist" comment="" />
+      <created>1579351504719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579351504719</updated>
+      <workItem from="1579351516299" duration="891000" />
+      <workItem from="1579444341768" duration="10767000" />
+      <workItem from="1579522323897" duration="3169000" />
+      <workItem from="1580030732596" duration="3828000" />
+      <workItem from="1580036022204" duration="391000" />
+      <workItem from="1580036420310" duration="92000" />
+      <workItem from="1580036514889" duration="161000" />
+      <workItem from="1580036705636" duration="5603000" />
+      <workItem from="1580044664752" duration="8116000" />
+      <workItem from="1580057713196" duration="13858000" />
+      <workItem from="1580116455542" duration="7550000" />
+      <workItem from="1580147286580" duration="4139000" />
+      <workItem from="1580208030986" duration="4385000" />
+      <workItem from="1580214732901" duration="157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

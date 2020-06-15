@@ -1,0 +1,37 @@
+html,
+body,
+.view {
+    font-family: IRANSans;
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #44B4B8;
+
+}
+.view{
+    background-image: url('../img/wordpress-survey-plugins-featured-image.jpg');
+    background-color: #44B4B8;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.rgba-gradient {
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.64), rgba(68, 180, 184, 0.73) 100%);
+}
+
+.card {
+
+    background-color: rgba(145, 132, 133, 0.66);
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.card p{
+    direction: rtl;
+    font-size: large;
+}
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}

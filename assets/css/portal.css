@@ -1,0 +1,31 @@
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+    overflow-y: scroll;
+
+}
+body{
+    overflow-x:hidden;
+    overflow-y: scroll;
+    direction: rtl;
+}
+.container{
+   width: 100%;
+
+
+}
+#nav{
+
+}
+ #avatar{
+     height: 1px;
+     width: 1px;
+     border-radius: 50%;
+ }
+
+ .tab-content{
+     width: 100%;
+ }
+ .hi{
+     background-color: #0b2e13;
+ }
